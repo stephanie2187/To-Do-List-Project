@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Garet";
+    src: 
+        url("fonts/Garet-Book.woff")
+    format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Garet";
+    src: url("fonts/Garet-Heavy.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Please write me a song";
+    src: url("fonts/Please\ write\ me\ a\ song.woff");
+    font-weight: normal;
+}
+
+body {
+    background-color: #e2eafc;
+}
+
+#title {
+    text-align: center;
+    font-family: "Garet";
+    letter-spacing: .0001rem;
+    font-size: 4rem;
+    color: #abc4ff;
+    margin-top: 4rem;
+}
+
+.listBody {
+    margin: auto;
+    width: 25rem;
+    padding: 3rem;
+    padding-top: 1.5rem;
+    background-color: #edf2fb;
+    min-height: 5rem;
+    border: 3px dashed #abc4ff;
+    border-radius: 2rem;
+    
+}
+
+.addItemBody {
+    background-color: #ccdbfd;
+    font-family: "Garet";
+    font-weight: bold;
+    color: #edf2fb;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0rem;
+    padding: .7rem;
+    border-radius: 2rem;
+}
+
+#addItem {
+    margin-left: 0rem;
+    border-radius: 2rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+}
+
+#addItemText {
+    margin-right: .7rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+#confirmItem {
+    font-family: "Please write me a song";
+    background-color: #abc4ff;
+    color: #edf2fb;
+    font-size: 1rem;
+    border: .2rem solid #edf2fb;
+    border-radius: 2rem;
+    margin-left: .3rem;
+    padding: .5rem;
+    width: 4rem;
+}
+
+.listItemsBody {
+    margin-top: 2rem;
+    font-family: "Garet";
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    word-break: break-word;
+    color: #7a9ae3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.clearBody {
+    text-align: center;
+}
+
+#clear {
+    background-color: #abc4ff;
+    color: #edf2fb;
+    font-family: "Please write me a song";
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border: .32rem solid #edf2fb;
+    border-radius: 3.5rem;
+    margin: 5rem;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+#deleteItem {
+    font-family: "Please write me a song";
+    font-size: 1rem;
+    background-color: #abc4ff;
+    color: #edf2fb;
+    width: 3rem;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: bold;
+    border: .32rem solid #edf2fb;
+    border-radius: 2rem;
+    padding: .3rem;
+    margin-left: .5rem;
+    
+}
+
+.deleteButton {
+    margin-right: auto;
+}
